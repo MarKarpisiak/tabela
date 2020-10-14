@@ -1,0 +1,58 @@
+body
+{
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	background-color: #D2D2D2;
+	margin:5px;
+}
+
+h3
+{
+	text-transform: uppercase;
+	background-color:#E9E9E9;
+	padding:5px;
+	width: 700px;
+	border:1px;
+	margin:10px;
+}
+
+
+#tabela
+{
+  border-collapse: collapse;
+  text-align: left;
+  width: 700px;
+  padding:5px;
+  border-bottom:1px solid black;
+}
+
+#tabela td, th
+{
+	font-size:14px;
+	padding:5px 12 px;
+	text-align:left;
+	vertical-align: top;
+}
+
+tr:nth-child(2n) 
+{
+	background-color: #D2D2D2;
+}
+tr:nth-child(2n+1) 
+{
+	background-color: #E9E9E9;
+}
+
+th
+{
+	text-transform: uppercase;
+	text-transform: bold;
+	border-bottom:1px solid black;
+}
+
+#dzial
+{
+	padding:5px;
+	width: 700px;
+}
+
